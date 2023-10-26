@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sidebar -->
+    <div class="sidebar">
+      <!-- Logo -->
+      <h1 class="logo">Food Time</h1>
+      <!-- List fo Manu -->
+      <div class="sidebar-manus">
+        <a href="#"> <i class="fa-solid fa-shop"></i>Home</a>
+        <a href="#"> <i class="fa-solid fa-money-bill"></i>Bills</a>
+        <a href="#"> <i class="fa-solid fa-wallet"></i>Wallet</a>
+        <a href="#"> <i class="fa-regular fa-bell"></i>notifications</a>
+        <a href="#"> <i class="fa-brands fa-rocketchat"></i>Contact Us</a>
+        <a href="#"> <i class="fa-solid fa-sliders"></i>Settings</a>
+      </div>
+      <!-- ============================================================================ -->
+      <!-- Log out -->
+      <div class="sideBarLogut">
+        <a href="#"><i class="fa-solid fa-right-from-bracket"></i>Log Out</a>
+      </div>
+    </div>
+    <!-- ========================================================================================================================= -->
+    <!-- main -->
+    <div class="main">
+      <!-- main navbar -->
+      <div class="main-navbar">
+        <!-- appears only in mobile version -->
+        <a href="#" class="anchors"> <i class="fa-solid fa-bars"></i></a>
+        <!-- serach bar -->
+
+        <div class="searchD">
+          <input type="text" placeholder="what do you want to eat" />
+          <button class="search-btn">Search</button>
+        </div>
+        <!-- profile icon on left navbar -->
+
+        <div class="profile">
+          <a class="cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+
+      <!-- ==================================================================================== -->
+      <!-- main highlights -->
+      <div class="main-highlights">
+        <!-- title section and arrow -->
+        <div class="main-header">
+          <h2 class="main-title">Recommendations</h2>
+          <div class="main-arrow">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </div>
+        </div>
+
+        <!-- highlights-manu -->
+        <div class="highlight-wrapper"></div>
+
+        <div class="highlight-card">
+          <img class="highlight-img" src="/images/burger1.jpg" alt="">
+
+          <div class="highlight-desc">
+          <h4>Fresh Salad</h4>
+          <p>Price : PKR640</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- mai manus  /orders-->
+
+
+    <!-- awsome and ion-icon links -->
+
+    <script
+      src="https://kit.fontawesome.com/4dbe650c4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
